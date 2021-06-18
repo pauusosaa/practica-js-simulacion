@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simulacion</title>
+</head>
+<body>
+    <header>
+        <h1>Simulación</h1>
+    </header>
+    <main>
+        <h3>Método de la Transformada inversa para valores discretos</h3>
+        <form action="GET">
+            <div>
+                <label for="intervalos">Ingrese los intervalos (separar con coma):</label> <br>
+                <input type="text" name = "intervalos" id ="intervalos" placeholder=" A,B,C,D"><br>
+                <label for="frecAbs">Ingrese la frecuencia absoluta según los intervalos anteriormente ingresados:</label> <br>
+                <input type="text" id="frecAbs" placeholder="31,10,25,34" > <br>
+                <label for="cantidadN">Ingrese la cantidad de variables aleatorias a generar:</label> <br>
+                <input type="text" id ="cantidadN" ><br>
+            </div>
+            <div>
+                <button type="button" >Calcular</button>
+            </div>
+            
+        </form>
+        <div class= "respuesta">
+            
+        </div>
+    </main>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+<footer>
+    <h4>Todos los derechos reservados </h4>
+</footer>
+</html>
